@@ -23,14 +23,18 @@
 <body>
   <div class="container">
 
+    <br><br>
+
     <div class="row">
-      <div class="col-12">
-        <h2>Lista de Pessoas</h2>
+      <div class="col-10 offset-1">
+        <h1 id="cad"><b><i>Lista de Pessoas</i></b></h1>
       </div>
     </div>
 
+    <br>
+
     <div class="row">
-      <div class="col-12">
+      <div class="col-10 offset-1">
         <div class="form-group">
           <label for="">Lista de Pessoas:</label>
           <select id="listaPessoas" class="form-control"></select>
@@ -39,7 +43,7 @@
     </div>
 
     <div class="row">
-      <div class="col-12">
+      <div class="col-10 offset-1">
         <div class="form-group">
           <label for="">Código:</label>
           <input type="text" class="form-control" id="codigo" readonly>
@@ -48,51 +52,56 @@
     </div>
 
     <div class="row">
-      <div class="col-12">
+      <div class="col-10 offset-1">
         <div class="form-group">
           <label for="">Nome:</label>
-          <input type="text" class="form-control" id="nome">
+          <input type="text" class="form-control" id="nome" readonly>
         </div>
       </div>
     </div>
 
     <div class="row">
-      <div class="col-12">
+      <div class="col-10 offset-1">
         <div class="form-group">
           <label for="">E-mail:</label>
-          <input type="email" class="form-control" id="email">
+          <input type="email" class="form-control" id="email" readonly>
         </div>
       </div>
     </div>
 
     <div class="row">
-      <div class="col-12">
+      <div class="col-10 offset-1">
         <div class="form-group">
           <label for="">Senha:</label>
-          <input type="password" class="form-control" id="senha">
+          <input type="password" class="form-control" id="senha" readonly>
+        </div>
+      </div>
+    </div>
+
+    <br>
+
+    <div class="row">
+      <div class="col-5 offset-1">
+        <div class="form-group">
+          <button class="btn-lg btn-block botao" id="salvarEdit">Salvar</button>
+        </div>
+      </div>
+      <div class="col-5">
+        <div class="form-group">
+          <button class="btn-lg btn-block botao" id="editar">Editar</button>
         </div>
       </div>
     </div>
 
     <div class="row">
-      <div class="col-3">
+      <div class="col-5 offset-1">
         <div class="form-group">
-          <button class="btn-lg btn-success btn-block botao" id="salvarEdit">Salvar</button>
+          <button class="btn-lg btn-block botao" id="cancelar">Cancelar</button>
         </div>
       </div>
-      <div class="col-3">
+      <div class="col-5">
         <div class="form-group">
-          <button class="btn-lg btn-primary btn-block botao" id="editar">Editar</button>
-        </div>
-      </div>
-      <div class="col-3">
-        <div class="form-group">
-          <button class="btn-lg btn-warning btn-block botao" id="cancelar">Cancelar</button>
-        </div>
-      </div>
-      <div class="col-3">
-        <div class="form-group">
-          <button class="btn-lg btn-danger btn-block botao" id="excluir">Excluir</button>
+          <button class="btn-lg btn-block botao" id="excluir">Excluir</button>
         </div>
       </div>
     </div>

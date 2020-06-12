@@ -9,61 +9,56 @@
    <script src="components/banco.js"></script>
 
   <link rel="stylesheet" href="components/loader.css">
-  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/materialize.min.css">
   <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
-  <div class="container">
-    
-    <div class="row">
-      <div class="col-12">
-        <h2>Cadastro de Pessoa</h2>
-      </div>
-    </div>
+  <div class="row">
 
-    <div class="row">
-      <div class="col-12">
-        <div class="form-group">
-          <label for="">Nome:</label>
-          <input type="text" class="form-control" id="nome">
-        </div>
-      </div>
-    </div>
+  <br><br>
 
-    <div class="row">
-      <div class="col-12">
-        <div class="form-group">
-          <label for="">E-mail:</label>
-          <input type="email" class="form-control" id="email">
-        </div>
-      </div>
-    </div>
+  <div class="col s10 offset-s1 z-depth-5" id="janela">
 
-    <div class="row">
-      <div class="col-12">
-        <div class="form-group">
-          <label for="">Senha:</label>
-          <input type="password" class="form-control" id="senha">
-        </div>
-      </div>
+  <div class="row">
+    <div class="col s12">
+    <h4 id="cad"><b><i>Cadastro de Pessoa</i></b></h4>
     </div>
-
-    <div class="row">
-      <div class="col-12">
-        <div class="form-group">
-          <button class="btn btn-success btn-block" id="salvar">Salvar</button>
-        </div>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-12">
-        <div class="form-group">
-          <button class="btn btn-primary btn-block" id="listar">Listar</button>
-        </div>
-      </div>
-    </div>
-
   </div>
+
+  <br>
+
+  <div class="row">
+    <div class="col s10 offset-s1">
+      <label for="">Nome:</label>
+      <input type="text" class="form-control" id="nome">
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col s10 offset-s1">
+      <label for="">Email:</label>
+      <input type="email" class="form-control" id="email">
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col s10 offset-s1">
+      <label for="">Senha:</label>
+      <input type="password" class="form-control" id="senha">
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col s5 offset-s1">
+      <a class="btn black" id="salvar">Salvar<i class="material-icons right">send</i></a>
+    </div>
+
+    <div class="col s5">
+      <a class="btn black" id="listar">Listar<i class="material-icons right">list</i></a>
+    </div>
+  </div>
+</div>
+</div>
 </body>
 </html>

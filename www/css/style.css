@@ -1,4 +1,23 @@
 .botao
 {
   font-size: 12px;
+  background-color: black;
+  color: white;
 }
+
+#cad
+{
+  text-align: center;
+}
+
+#janela
+{
+  margin-top: 30%;
+  background-color:antiquewhite;
+}
+
+body
+{
+  background-color:#e8d9ca;
+}
+
